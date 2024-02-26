@@ -1,0 +1,37 @@
+quest
+file structuring and blog boiler
+just works (styles later)
+
+home section
+half front section intro
+latest blogs
+
+blogs
+title
+by me
+short desc (subtitle)
+img
+par
+img
+par
+dp float left me good boy click for more articles
+
+mon
+divs
+backend (node,sql)
+keyboard navigation
+login
+fortune (dark and light) and quote for others
+search
+front end = limit long paragraph, allow images
+
+tues
+git hub
+
+final touches
+font
+colors {use hack for dark theme, with js}
+responsive {use clamp}
+animations
+random images for icons
+other aside for lobotomy
