@@ -1,12 +1,11 @@
 quest
-file structuring and blog boiler
-just works (styles later)
+hide until clicked (js)
+keys navigation && accessibility
+login && search
+fortune and other api intergration
+front end - limit long paragraph, allow images
 
-home section
-half front section intro
-latest blogs
-
-blogs
+blog format
 title
 by me
 short desc (subtitle)
@@ -16,22 +15,15 @@ img
 par
 dp float left me good boy click for more articles
 
-mon
-divs
-backend (node,sql)
-keyboard navigation
-login
-fortune (dark and light) and quote for others
-search
-front end = limit long paragraph, allow images
-
 tues
 git hub
+
+responsive
+wait for radiance
+use clamp
 
 final touches
 font
 colors {use hack for dark theme, with js}
-responsive {use clamp}
 animations
 random images for icons
-other aside for lobotomy
