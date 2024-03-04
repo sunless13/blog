@@ -23,6 +23,7 @@ wait for radiance
 use clamp
 
 final touches
+meta
 font
 colors {use hack for dark theme, with js}
 animations

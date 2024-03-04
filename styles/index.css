@@ -1,9 +1,13 @@
+/*
 :root {
-  --bg-color: skyblue;
-  --sec-bg-color: darkcyan;
+  --bg-color: gray;
+  --sec-bg-color: darkgray;
 }
+*/
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
@@ -11,7 +15,6 @@
 
 /* body */
 body {
-  background-color: var(--bg-color);
   display: grid;
   grid-template-columns: 5fr 1fr;
   grid-template-rows: 0.5fr 5fr 0.5fr;
@@ -20,7 +23,6 @@ body {
 
 /* header */
 header {
-  background-color: var(--sec-bg-color);
   grid-area: 1 / 1 / 1 / -1;
   display: flex;
   align-items: center;
