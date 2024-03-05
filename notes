@@ -1,9 +1,12 @@
 quest
-hide until clicked (js)
+today - drop down
+
+js
 keys navigation && accessibility
+
+later
 login && search
 fortune and other api intergration
-front end - limit long paragraph, allow images
 
 blog format
 title
@@ -23,6 +26,7 @@ wait for radiance
 use clamp
 
 final touches
+front end - limit long paragraph, allow images
 meta
 font
 colors {use hack for dark theme, with js}
