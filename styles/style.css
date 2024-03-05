@@ -40,6 +40,7 @@ nav {
 \*======================*/
 main {
   display: grid;
+  grid-template-columns: 7fr 1fr;
   border: 1rem solid yellow;
 }
 
@@ -49,7 +50,7 @@ main {
 .intro {
   border: 1rem solid green;
 
-  h2 {
+  h1 {
     font-size: 5rem;
   }
 
@@ -62,8 +63,9 @@ main {
   featured blogs section
 \*======================*/
 .featured-blogs {
+  order: 3;
   border: 1rem solid cyan;
-  h2 {
+  h1 {
     font-size: 4rem;
   }
 }
@@ -87,7 +89,7 @@ main {
   /* blog image */
   .img {
     border: 1rem solid black;
-    height: 10rem;
+    height: 20rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,10 +106,10 @@ main {
 
   /* blog content */
   h3 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .blog-content {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -115,23 +117,35 @@ main {
        toc section
 \*======================*/
 aside {
-  display: none;
-  visibility: hidden;
+  grid-area: 1 / 2 / 3 / 2;
   border: 1rem solid brown;
   font-size: 2rem;
-  /*
-   *display: flex;
-   *flex-direction: column;
-   *align-items: center;
-   *justify-content: flex-start;
-   */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 
-  h1 {
+  /* "topics" */
+  .topics {
     font-size: 4rem;
   }
 
-  h3 {
+  /* "tech, dark ..." */
+  h2 {
     font-size: 3rem;
+  }
+
+  /* drop-down */
+  ol {
+    max-height: 0rem;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+  .active {
+    max-height: 5rem;
+    overflow: hidden;
+    visibility: visible;
   }
 }
 
@@ -141,7 +155,8 @@ aside {
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 5rem;
   font-size: 2rem;
   border: 1rem solid white;
 }

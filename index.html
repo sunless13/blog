@@ -9,11 +9,10 @@
     <link href="styles/style.css" rel="stylesheet" />
 
     <!-- scripts -->
-    <script async src="scripts/index.js"></script>
+    <script async src="scripts/script.js"></script>
   </head>
 
   <body>
-
     <!-- Navbar -->
     <header>
       <div>logo</div>
@@ -21,15 +20,13 @@
         <a href="pages/essential/login/login.html">Sign Up/Login</a>
         <a href="pages/essential/basic/basic.html">Help</a>
         <a href="pages/essential/contacts/contacts.html">Contacts</a>
-        <a href="">Topics</a>
       </nav>
     </header>
 
     <main>
-
       <!-- introduction to the website -->
       <section class="intro">
-        <h2>Sunless's Blog</h2>
+        <h1>Sunless's Blog</h1>
         <p>
           Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit
           enim labore culpa sint ad nisi Lorem pariatur mollit ex esse
@@ -39,142 +36,114 @@
 
       <!-- featured blogs section -->
       <section class="featured-blogs">
-        <h2>Latest Blogs</h2>
+        <h1>Latest Blogs</h1>
 
-          <!-- blogs container -->
-          <ul class="blog-container">
+        <!-- blogs container -->
+        <ul class="blog-container">
+          <!-- blog -->
+          <li>
+            <a href="pages/tech/web/web.html">
+              <!-- blog img -->
+              <figure>
+                <div class="img">article image</div>
+              </figure>
 
-            <!-- blog -->
-            <li>
-              <a href="pages/tech/web/web.html">
+              <article>
+                <!-- blog meta -->
+                <div>
+                  <p>Tech</p>
+                  <time datetime="2024-03-03">March 03, 2024</time>
+                </div>
 
-                <!-- blog img -->
-                <figure>
-                  <div class="img">article image</div>
-                </figure>
+                <!-- blog content -->
+                <h3>Web dev gud</h3>
+                <p class="blog-content">
+                  Veritatis et quasi architecto beatae vitae dicta sunt,
+                  explicabo...
+                </p>
+              </article>
+            </a>
+          </li>
 
-                <article>
+          <!-- blog -->
+          <li>
+            <a href="pages/dark/curses/curses.html">
+              <!-- blog img-->
+              <figure>
+                <div class="img">article image</div>
+              </figure>
 
-                  <!-- blog meta -->
-                  <div>
-                    <p>Tech</p>
-                    <time datetime="2024-03-03">March 03, 2024</time>
-                  </div>
+              <article>
+                <!-- blog meta-->
+                <div>
+                  <p>Dark</p>
+                  <time datetime="2024-03-03">March 03, 2024</time>
+                </div>
 
-                  <!-- blog content -->
-                  <h3>Web dev gud</h3>
-                  <p class="blog-content">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo...
-                  </p>
+                <!-- blog content-->
+                <h3>Best hexes</h3>
+                <p class="blog-content">
+                  Veritatis et quasi architecto beatae vitae dicta sunt,
+                  explicabo.
+                </p>
+              </article>
+            </a>
+          </li>
 
-                </article>
+          <!-- blog -->
+          <li>
+            <a href="pages/light/miracles/miracles.html">
+              <!-- blog img-->
+              <figure>
+                <div class="img">article image</div>
+              </figure>
 
-              </a>
-            </li>
+              <article>
+                <!-- blog meta-->
+                <div>
+                  <p>Light</p>
+                  <time datetime="2024-03-03">March 03, 2024</time>
+                </div>
 
-            <!-- blog -->
-            <li>
-              <a href="pages/dark/curses/curses.html">
-
-                <!-- blog img-->
-                <figure>
-                  <div class="img">article image</div>
-                </figure>
-
-                <article>
-
-                  <!-- blog meta-->
-                  <div>
-                    <p>Dark</p>
-                    <time datetime="2024-03-03">March 03, 2024</time>
-                  </div>
-
-                  <!-- blog content-->
-                  <h3>Best curses and hexes</h3>
-                  <p class="blog-content">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </article>
-
-              </a>
-            </li>
-
-            <!-- blog -->
-            <li>
-              <a href="pages/light/miracles/miracles.html">
-
-                <!-- blog img-->
-                <figure>
-                  <div class="img">article image</div>
-                </figure>
-
-                <article>
-
-                  <!-- blog meta-->
-                  <div>
-                    <p>Light</p>
-                    <time datetime="2024-03-03">March 03, 2024</time>
-                  </div>
-
-                  <!-- blog content-->
-                  <h3>How to be Radiating in the midst of evil</h3>
-                  <p class="blog-content">
-                    Veritatis et quasi aritecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
-                </article>
-
-              </a>
-            </li>
-            
-          </ul>
+                <!-- blog content-->
+                <h3>How to be Radiating</h3>
+                <p class="blog-content">
+                  Veritatis et quasi aritecto beatae vitae dicta sunt,
+                  explicabo.
+                </p>
+              </article>
+            </a>
+          </li>
+        </ul>
       </section>
 
       <!-- Table of Contents -->
       <aside>
-        <h1>Topics</h3>
-        <h3>Tech</h3>
-        <ul class="tech-topics">
+        <a href="#"><h2 class="topics">Topics</h2></a>
+        <a href="#"><h2>Tech</h2></a>
+        <ol class="tech active">
           <li><a href="pages/tech/web/web.html">Web</a></li>
           <li><a href="pages/tech/lunix/lunix.html">Lunix</a></li>
-          <li><a href="pages/tech/android/android.html">Android</a></li>
-        </ul>
+        </ol>
 
-        <h3>Dark</h3>
-        <ul class="dark-topics">
+        <a href="#"><h2>Dark</h2></a>
+        <ol class="dark active">
           <li><a href="pages/tech/demons/demons.html">Demons</a></li>
           <li><a href="pages/tech/curses/curses.html">Curses</a></li>
-          <li>
-            <a href="pages/tech/immortality/immortality.html">Immortal</a>
-          </li>
-        </ul>
+        </ol>
 
-        <h3>Light</h3>
-        <ul class="light-topics">
+        <a href="#"><h2>Light</h2></a>
+        <ol class="light active">
           <li><a href="pages/tech/prayers/prayers.html">Prayers</a></li>
           <li><a href="pages/tech/exorcism/exorcism.html">Exorcism</a></li>
-          <li><a href="pages/tech/miracles/miracles.html">Miracles</a></li>
-        </ul>
+        </ol>
       </aside>
     </main>
 
     <footer>
-      <a href="pages/essential/basic/basic.html">Help</a>
-      <ul class="help-menu">
-        <li>Navigating the Website</li>
-        <li>Creating a Blog</li>
-      </ul>
-      <a href="pages/essential/contacts/contacts.html">Contacts</a>
-      <ul class="contacts-menu">
-        <li>Say Hi</li>
-        <li>Report Problem</li>
-      </ul>
       <a href="pages/essential/login/login.html">Sign Up/Login</a>
-      <ul class="login-menu">
-        <li>Sign Up and join the blogging community</li>
-        <li>Welcome Back</li>
-      </ul>
+      <a href="pages/essential/basic/basic.html">Help</a>
+      <a href="pages/essential/contacts/contacts.html">Contacts</a>
     </footer>
   </body>
 </html>
