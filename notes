@@ -6,6 +6,7 @@ keys navigation && accessibility
 
 bug
 when scrolling, toc snaps to top (instincts at absolute positioning instead of relative)
+hover to select table of contents (not working (need js tho))
 
 later
 login && search
