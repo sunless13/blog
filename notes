@@ -1,37 +1,28 @@
 quest
-blog page
-
-js
-keys navigation && accessibility
-
-bug
-when scrolling, toc snaps to top (instincts at absolute positioning instead of relative)
-hover to select table of contents (not working (need js tho))
-
-later
+host it locally
+hack for dark theme
 login && search
 fortune and other api intergration
 
-blog format
-title
-by me
-short desc (subtitle)
-img
-par
-img
-par
-dp float left me good boy click for more articles
+bug (just make a better toc)
+when scrolling, toc snaps to top (instincts at absolute positioning instead of relative)
+hover to select table of contents (not working (need js tho))
 
-tues
-git hub
+dark souls
+vi and emacs navigations
 
 responsive
 use clamp
+add grid automatic arrangement
 
 final touches
-front end - limit long paragraph, allow images
+html
 meta
+
+css
 font
-colors {use hack for dark theme, with js}
 animations
 random images for icons
+
+js
+front end - limit long paragraph, allow images
