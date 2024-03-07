@@ -1,9 +1,11 @@
 quest
 blog page
-make toc in navbar
 
 js
 keys navigation && accessibility
+
+bug
+when scrolling, toc snaps to top (instincts at absolute positioning instead of relative)
 
 later
 login && search

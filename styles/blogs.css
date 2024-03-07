@@ -1,0 +1,6 @@
+/*======================*\
+  featured blogs section
+\*======================*/
+.blog-container {
+  grid-template-columns: 1fr 1fr;
+}
